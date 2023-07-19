@@ -9,58 +9,83 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <style>
-      header{
-        background-color: burlywood;color: black;
-      }
-      .links{
-        text-transform: uppercase;
-        text-decoration: none;
-        word-spacing: 30px;
-      }
+            body {
+             background-color: aqua;
+            }
+      @media screen and (max-width:800px){
+            body{
+              background-color: antiquewhite;      }
+            }
+            @media screen and (max-width:750px){
+            body{
+              background-color: rgb(46, 207, 40);      }
+            }
+
+            header {
+              background-color: burlywood;
+              color: black;
+            }
+            .links {
+              text-transform: uppercase;s
+              text-decoration: none;
+              word-spacing: 30px;
+              padding: 25px;
+            }
+            .icons {
+              margin-right: 20px;
+            }
     </style>
   </head>
   <body>
     <header>
-      <i class="fa fa-user" aria-hidden="true"></i> &nbsp;
-      <span>MD Zubair Ahmed Shaik</span> &nbsp; &nbsp; &nbsp; &nbsp;
-      <i class="fa fa-phone-square" aria-hidden="true"></i> &nbsp;
-      <span>8898888888</span> &nbsp; &nbsp; &nbsp; &nbsp;
-      <i class="fa fa-envelope" aria-hidden="true"></i> &nbsp;
-      <span>abcd@gmail.com</span> &nbsp;
-      <span>
-        <a href="assedts/MD Zubair _M.Tech DE.pdf" download="Resume" >
-          <button type="button">Download Resume</button>
-        </a>
+      <i class="fa fa-user" aria-hidden="true"></i>
+      <span class="icons">MD Zubair Ahmed Shaik</span>
+      <i class="fa fa-phone-square" aria-hidden="true"></i>
+      <span class="icons">8898888888</span>
+      <i class="fa fa-envelope" aria-hidden="true"></i>
+      <span class="icons">abcd@gmail.com</span>
+      <a href="assedts/MD Zubair _M.Tech DE.pdf" download="Resume">
+        <button type="button">Download Resume</button>
+      </a>
     </header>
     <br /><br />
     <nav>
-      <a class="links" href="home.html" target="my frame" >Home</a> &nbsp; &nbsp; &nbsp;
-      <a class="links" href="techStack.html" target="my frame" >TechStacks</a> &nbsp; &nbsp;
-      &nbsp; <a class="links" href="projectDetails.html" target="my frame" >Project</a> &nbsp;
-      &nbsp; &nbsp;
-      <a class="links" href="education.html" target="my frame" >Education</a> &nbsp; &nbsp;
-      &nbsp; <a class="links" href="aboutme.html" target="_blank" >Aboutme</a> &nbsp; &nbsp;
-      &nbsp;
+      <a class="links" href="home.html" target="my frame">Home</a>
+      <a class="links" href="techStack.html" target="my frame">TechStacks</a>
+      <a class="links" href="projectDetails.html" target="my frame">Project</a>
+      <a class="links" href="education.html" target="my frame">Education</a>
+      <a class="links" href="aboutme.html" target="_blank">Aboutme</a>
     </nav>
     <br /><br />
-    <iframe width="800px" height="600px" src="aboutme.html" name="my frame" frameborder="0"></iframe>
-    <br>
+    <iframe
+      width="800px"
+      height="600px"
+      src="aboutme.html"
+      name="my frame"
+      frameborder="0"
+    ></iframe>
+    <br />
     <footer>
-      <span>Follow me</span> &nbsp; &nbsp; &nbsp;
-      <a href="https://github.com/Sanketchaudhari1998/my-profile">
+      <span class="icons">Follow me</span>
+      <a class="icons" href="https://github.com/Sanketchaudhari1998/my-profile">
         <i class="fa fa-github" aria-hidden="true"></i>
       </a>
-      &nbsp; &nbsp; &nbsp;
-      <a href="https://www.linkedin.com/in/sanket-chaudhari-2b386617a/" >
-        <i class="fa fa-linkedin-square" aria-hidden="true"></i></a>&nbsp; &nbsp; &nbsp;
-      <a href="https://www.instagram.com/">
+      <a
+        class="icons"
+        href="https://www.linkedin.com/in/sanket-chaudhari-2b386617a/"
+      >
+        <i class="fa fa-linkedin-square" aria-hidden="true"></i
+      ></a>
+      <a class="icons" href="https://www.instagram.com/">
         <i class="fa fa-instagram" aria-hidden="true"></i>
       </a>
-      &nbsp; &nbsp; &nbsp;
-      <a href="https://www.facebook.com/"
+      <a class="icons" href="https://www.facebook.com/"
         ><i class="fa fa-facebook-square" aria-hidden="true"></i>
       </a>
-      <p> Copyright &copy; 2023 Zoom Video Communications, Inc. All rights reserved. </p>
-  </footer>
+      <p>
+        Copyright &copy; 2023 Zoom Video Communications, Inc. All rights
+        reserved.
+      </p>
+    </footer>
   </body>
 </html>
