@@ -26,13 +26,17 @@
               color: black;
             }
             .links {
-              text-transform: uppercase;s
+              text-transform: uppercase;
               text-decoration: none;
-              word-spacing: 30px;
-              padding: 25px;
+
             }
             .icons {
               margin-right: 20px;
+            }
+            nav ul li{
+              display: inline-block;
+              width: 100px;
+              text-decoration: uppercase;
             }
     </style>
   </head>
@@ -50,11 +54,13 @@
     </header>
     <br /><br />
     <nav>
-      <a class="links" href="home.html" target="my frame">Home</a>
-      <a class="links" href="techStack.html" target="my frame">TechStacks</a>
-      <a class="links" href="projectDetails.html" target="my frame">Project</a>
-      <a class="links" href="education.html" target="my frame">Education</a>
-      <a class="links" href="aboutme.html" target="_blank">Aboutme</a>
+      <ul class="displayproperty">
+        <li><a class="links" href="home.html" target="my frame">Home</a></li>
+        <li><a class="links" href="techStack.html" target="my frame">TechStacks</a></li>
+        <li><a class="links" href="projectDetails.html" target="my frame">Project</a></li>
+        <li><a class="links" href="education.html" target="my frame">Education</a></li>
+        <li><a class="links" href="aboutme.html" target="_blank">Aboutme</a></li>
+      </ul>
     </nav>
     <br /><br />
     <iframe
