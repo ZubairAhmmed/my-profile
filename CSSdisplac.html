@@ -1,61 +1,53 @@
 <!DOCTYPE html>
 
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
 
-<head>
-
-    <meta charset="UTF-8">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>CSS Display Property</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sunflower:wght@500&display=swap"
+      rel="stylesheet"
+    />
 
     <style>
-
-        *{
-
-            /* margin: 0;
+      * {
+        /* margin: 0;
 
             padding: 0; */
 
-            /* border: 2px solid orange; */
+        /* border: 2px solid orange; */
+      }
 
-        }
-
-       #learning{
-
+      #learning {
         display: inline;
 
         /* width: 200px; */
+      }
 
-       } 
-
-       .depth{
-
+      .depth {
         display: inline;
 
         /* width: 200px; */
+      }
 
-       }
-
-       .angular{
-
+      .angular {
         /* width: 200px; */
 
         display: inline;
+      }
 
-       }
-
-       .react{
-
+      .react {
         width: 200px;
 
         display: inline-block;
+      }
 
-       }
-
-       .list li{
-
+      .list li {
         display: inline-block;
 
         margin-right: 150px;
@@ -65,21 +57,18 @@
         width: 100px;
 
         height: 30px;
+      }
 
-       }
-
-       .para1{
-
+      .para1 {
         border: 1px solid orange;
 
         width: 100px;
 
         height: 60px;
+        font-family: "Sunflower", sans-serif;
+      }
 
-       }
-
-       .para2{
-
+      .para2 {
         /* display: none; */
 
         visibility: hidden;
@@ -89,59 +78,44 @@
         width: 100px;
 
         height: 60px;
+        font-family: "Sunflower", sans-serif;
+      }
 
-       }
-
-       .para3{
-
+      .para3 {
         border: 1px solid orange;
 
         width: 100px;
 
         height: 60px;
-
-       }
-
+      }
     </style>
+  </head>
 
-</head>
-
-<body>
-
+  <body>
     <h2 id="learning">Learning display property</h2>
 
-    <p class="depth"> I have started learning display property in depth </p>
+    <p class="depth">I have started learning display property in depth</p>
 
     <span class="angular"> Angular </span>
 
     <span class="react">React</span>
 
- 
+    <h2>My Friend List</h2>
 
-    <h2> My Friend List </h2>
+    <ul class="list">
+      <li class="jenny">Jenny</li>
 
-    <ul class="list"> 
+      <li>Bill</li>
 
-        <li class="jenny"> Jenny</li>
+      <li>Stew</li>
 
-        <li>Bill</li>
-
-        <li>Stew</li>
-
-        <li>Elon</li>
-
+      <li>Elon</li>
     </ul>
 
- 
-
-    <p class="para1"> Para1</p>
+    <p class="para1">Para1</p>
 
     <p class="para2">Para 2</p>
 
-    <p class="para3"> Para 3</p>
-
-    
-
-</body>
-
+    <p class="para3">Para 3</p>
+  </body>
 </html>
